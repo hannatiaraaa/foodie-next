@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply py-2 rounded-xl shadow-lg;
+  }
+
+  .btn-title {
+    @apply text-base md:text-2xl lg:text-lg font-bold;
+  }
+
+  .btn-primary {
+    @apply bg-primary-orange hover:bg-transparent;
+  }
+
+  .btn-primary-gradient {
+    @apply bg-gradient-to-r from-light-orange to-primary-orange hover:shadow-orange-50;
+  }
+
+  .btn-secondary {
+    @apply border-2 bg-orange-50/70 border-primary-orange hover:bg-dark-background/50;
+  }
+}
