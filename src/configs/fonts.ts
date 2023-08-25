@@ -33,12 +33,12 @@ export const redhat = localFont({
       style: "italic",
     },
     {
-      path: "../assets/fonts/RedHatDisplay-Semibold.ttf",
+      path: "../assets/fonts/RedHatDisplay-SemiBold.ttf",
       weight: "600",
       style: "normal",
     },
     {
-      path: "../assets/fonts/RedHatDisplay-SemiboldItalic.ttf",
+      path: "../assets/fonts/RedHatDisplay-SemiBoldItalic.ttf",
       weight: "600",
       style: "italic",
     },
