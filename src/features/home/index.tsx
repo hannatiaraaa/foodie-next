@@ -11,7 +11,7 @@ export default function Home() {
         <iframe
           src="https://www.youtube-nocookie.com/embed/sv3TXMSv6Lw?controls=0&autoplay=1&mute=1&end=80&loop=1&playlist=sv3TXMSv6Lw"
           allowFullScreen
-          className="h-screen lg:w-[300vw] lg:ml-[-100vw] aspect-video"
+          className="h-[110vh] mt-[-10vh] lg:mt-0 lg:h-screen lg:w-[300vw] lg:ml-[-100vw] aspect-video"
         ></iframe>
       </div>
 
@@ -23,7 +23,7 @@ export default function Home() {
         />
 
         <div className="bg-dark-background/70 lg:bg-transparent absolute py-8 px-8 h-2/3 lg:px-24 flex flex-col justify-around z-20 ">
-          <div className="md:shrink-0 h-2/3 flex flex-col justify-end">
+          <div className="shrink-0 h-2/3 flex flex-col justify-end">
             <p className="text-orange-50 text-2xl md:text-3xl font-bold">
               Where Hunger Meets Your Passion
             </p>
@@ -32,7 +32,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="md:shrink-0 w-full h-1/3 flex flex-col justify-evenly">
+          <div className="shrink-0 w-full h-1/3 flex flex-col justify-evenly">
             <button className="btn btn-primary-gradient">
               <p className="btn-title text-orange-50">Try now</p>
             </button>
